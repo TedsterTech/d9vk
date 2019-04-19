@@ -706,8 +706,6 @@ namespace dxvk {
     void UpdateClipPlanes();
     
     void UpdateRenderStateBuffer();
-    
-    Rc<DxvkSampler> CreateSampler(DWORD Sampler);
 
     void BindSampler(DWORD Sampler);
 
